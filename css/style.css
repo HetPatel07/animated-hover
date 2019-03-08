@@ -1,0 +1,30 @@
+.main{
+    margin:50px auto;
+    height: 60px;
+    width: 157px; 
+    background-image: url(../img/twitterSprite.png);
+    background-position: 0 0;
+    transition: 1s all;
+/*
+    animation-name: animate;
+    animation-duration: 1s;
+    animation-timing-function: steps(27);
+    animation-iteration-count: infinite;
+*/
+}
+
+.main:hover{
+    animation-name: animate;
+    animation-duration: 1s;
+    animation-timing-function: steps(27);
+    animation-iteration-count: 1;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 4239px 0;
+    }
+}
